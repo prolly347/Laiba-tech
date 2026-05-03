@@ -1,0 +1,7 @@
+FROM python:3.10-slim
+
+COPY main.py .
+
+EXPOSE 8080
+
+CMD ["python3", "main.py"]
